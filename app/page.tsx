@@ -6,6 +6,7 @@ import InsightSection from "./components/sections/InsightSection";
 import Navbar from "./components/sections/Navbar";
 import StepsSection from "./components/sections/StepsSection";
 import ValueSection from "./components/sections/ValueSection";
+import BackToTopButton from "./components/ui/BackToTopButton";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <StepsSection />
         <ClosingCTASection />
       </main>
+      <BackToTopButton />
       <FooterSection />
     </div>
   );
