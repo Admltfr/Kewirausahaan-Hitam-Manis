@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <rect width="1200" height="900" fill="#3C2517"/>
+  <rect x="130" y="120" width="940" height="660" rx="34" fill="#F4DEC6"/>
+  <path d="M280 580C350 490 470 450 600 450C730 450 850 490 920 580" stroke="#6E4326" stroke-width="54" stroke-linecap="round"/>
+  <path d="M350 520C415 455 505 420 600 420C695 420 785 455 850 520" stroke="#8E5A34" stroke-width="42" stroke-linecap="round"/>
+  <circle cx="360" cy="290" r="74" fill="#472A18"/>
+  <text x="600" y="320" text-anchor="middle" fill="#472A18" font-size="70" font-family="Arial, sans-serif" font-weight="700">Chocolate</text>
+  <text x="600" y="700" text-anchor="middle" fill="#6E4326" font-size="38" font-family="Arial, sans-serif">Replace with your product image</text>
+</svg>
