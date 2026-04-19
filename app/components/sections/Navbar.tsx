@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Container from "../ui/Container";
+import Image from "next/image";
 
 const menuItems = [
   { label: "Tentang", href: "#tentang" },
@@ -64,8 +65,15 @@ export default function Navbar() {
       />
       <Container className="flex h-16 items-center justify-between">
         <a href="#home" className="group inline-flex items-center gap-2">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[color:var(--accent-900)] text-sm font-bold text-[color:var(--cream-100)] transition-transform duration-300 group-hover:rotate-6">
-            HM
+          <span className="inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-[color:var(--accent-900)] transition-transform duration-300 group-hover:rotate-6">
+            <Image
+              src="/images/logo-hitam-manis.png"
+              alt="Logo Hitam Manis"
+              width={36}
+              height={36}
+              className="h-full w-full object-cover"
+              priority
+            />
           </span>
           <span className="font-display text-xl font-semibold text-[color:var(--ink-900)]">
             Hitam Manis
