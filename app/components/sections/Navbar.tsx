@@ -98,7 +98,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2">
           <a
-            href="#pesan"
+            href="https://www.instagram.com/hitammanis.area"
             className="hidden rounded-full border border-[color:var(--accent-900)] px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[color:var(--accent-900)] transition-all duration-300 hover:bg-[color:var(--accent-900)] hover:text-[color:var(--cream-100)] sm:inline-flex"
           >
             Coba Sekarang
