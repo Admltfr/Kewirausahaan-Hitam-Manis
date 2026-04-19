@@ -7,19 +7,19 @@ const products = [
   {
     title: "Churros + Chocolate",
     description: "Klasik, rich, dan selalu jadi favorit untuk recharge energi.",
-    image: "/images/foto-coklat.jpg",
+    image: "/images/foto-coklat.png",
   },
   {
     title: "Churros + Matcha",
     description:
       "Perpaduan manis dan earthy yang bikin rasa lebih berkarakter.",
-    image: "/images/foto-matcha.jpg",
+    image: "/images/foto-matcha.png",
   },
   {
     title: "Churros + Strawberry",
     description:
       "Manis segar dengan sentuhan fruity yang fun di setiap gigitan.",
-    image: "/images/foto-stroberi.jpg",
+    image: "/images/foto-stroberi.png",
   },
 ];
 
